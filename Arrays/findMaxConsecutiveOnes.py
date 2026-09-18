@@ -7,7 +7,7 @@ class Solution:
             if nums[i] == 1:
                 cnt += 1
                 maxi = max(maxi, cnt)
-            else:
+            else: 
                 cnt = 0
         return maxi
 obj = Solution()
