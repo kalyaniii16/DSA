@@ -12,3 +12,6 @@ class Solution:
                 sum = 0
 
         return maxi
+obj = Solution()
+nums = [-2,1,-3,4,-1,2,1,-5,7]
+print(obj.maxSubArray(nums))
